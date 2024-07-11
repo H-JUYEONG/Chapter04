@@ -22,7 +22,7 @@ public class PointList {
 	public Point get(int index) {
 		return pArray[index];
 	}
-
+ 
 	public int size() {
 		return crtPos;
 	}

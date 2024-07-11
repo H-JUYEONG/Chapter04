@@ -22,7 +22,7 @@ public class MyListApp {
 			
 		}
 		*/
-		
+		 
 		PointList pList = new PointList();
 		
 		Point p01 = new Point(2,2);

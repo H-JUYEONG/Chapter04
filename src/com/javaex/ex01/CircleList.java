@@ -18,7 +18,7 @@ public class CircleList {
 	public Circle get(int index) {
 		return cArray[index];
 	}
-
+ 
 	public int size() {
 		return crtPos;
 	}
