@@ -11,7 +11,7 @@ public class MyList<T> { // T는 Point를 받기 위한 매개변수 같은 존�
 		// 메모리 올리고
 		oArray = (T[]) new Object[3];
 		crtPos = 0;
-	}
+	} 
 
 	public void add(T obj) {
 		this.oArray[crtPos] = obj;

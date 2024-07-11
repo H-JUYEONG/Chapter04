@@ -13,7 +13,7 @@ public class MyListApp {
 		pList.add(p01);
 		pList.add(p02);
 		pList.add(p03);
-
+ 
 		Point p = pList.get(1);
 		System.out.println(p.toString());
 
