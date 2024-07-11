@@ -20,7 +20,7 @@ public class MyListApp {
 		
 		intList.remove(0);
 		System.out.println(intList.toString());
-
+ 
 	}
 
 }
