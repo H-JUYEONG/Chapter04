@@ -1,7 +1,5 @@
 package com.javaex.ex02;
 
-import com.javaex.ex01.Point;
-
 public class MyList {
 
 	// 필드
