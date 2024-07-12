@@ -8,7 +8,6 @@ public class Ex02 {
 	public static void main(String[] args) {
 
 //		int no = (int) (Math.random() * 45) + 1;
-
 //		System.out.println(no);
 
 		Set<Integer> lotto = new HashSet<Integer>();
