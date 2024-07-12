@@ -27,12 +27,25 @@ public class PointApp {
 		pMap.put("박명수", p04);
 		System.out.println(pMap.get("박명수"));
 
+		System.out.println("------------------------");
+
 		Set<String> keys = pMap.keySet();
 
 		for (String key : keys) {
 			System.out.println(pMap.get(key).toString());
 			System.out.println(pMap.get(key).getX());
 		}
+
+		System.out.println("------------------------");
+
+		Map<String, String> questbookMap = new HashMap<String, String>();
+		questbookMap.put("date", "2024-07-12");
+		questbookMap.put("userName", "정우성");
+		questbookMap.put("pw", "1234");
+		questbookMap.put("contents", "왔다갑니다.");
+
+		System.out.println(questbookMap.get("userName"));
+		System.out.println(questbookMap.get("contents"));
 
 	}
 
